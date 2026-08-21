@@ -1,0 +1,51 @@
+{
+  "name": "MijusOrder - MiJUS Go Healthy",
+  "short_name": "MiJUS Order",
+  "description": "Pesan Jus Segar Murni, Salad & Makanan Sehat MiJUS langsung dari smartphone Anda.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#064e3b",
+  "theme_color": "#059669",
+  "orientation": "portrait",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "categories": ["food", "lifestyle", "shopping"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Katalog Menu & Pesan",
+      "short_name": "Menu",
+      "description": "Buka katalog jus & makanan sehat",
+      "url": "/",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Kartu Stamp & Reward",
+      "short_name": "Stamp Member",
+      "description": "Cek perolehan stamp loyalitas gratis jus",
+      "url": "/?tab=stamp",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lacak Status Pesanan",
+      "short_name": "Status Order",
+      "description": "Lihat progress pesanan Anda",
+      "url": "/?tab=pesanan",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

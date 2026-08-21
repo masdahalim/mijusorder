@@ -1,0 +1,6 @@
+{
+  "name": "MijusOrder - MiJUS Go Healthy",
+  "description": "Sistem pemesanan digital & PWA homescreen shortcut untuk MiJUS Go Healthy (Customer Web tanpa login & Admin Web dengan alur forward WhatsApp ke Crew Onsite/Grup Order).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
